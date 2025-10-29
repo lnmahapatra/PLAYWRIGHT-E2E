@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { MenTopsPage } from '../pages/MenTopsPage';
-import { SoftAssert } from '../utils/SoftAssert';
+import { SoftAssert } from '../utils/softAssert';
 import type { Product } from '../interfaces/Product';
 
 test.describe('Magento Dynamic Table & Pagination Verification', () => {
